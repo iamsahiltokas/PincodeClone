@@ -1,0 +1,97 @@
+* {
+   margin: 0px;
+   padding: 0px; 
+}
+
+header {
+    background-image: linear-gradient(#ffe0da , #fffaf9 , #ffffff);
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+
+#container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    column-gap: 110px;
+}
+
+#appstore {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#container2 {
+    display: flex;
+    padding: 80px 0px 0px 50px;
+    width: 1200px;
+    height: 320px;
+    border-radius: 30px;
+    background-color: #fff0ec;
+    column-gap: 110px;
+}
+
+#abstract1 {
+    position: static;
+}
+
+#mobile-mock-1 {
+    position: relative;
+    bottom: 450px;
+    right: 0px;
+    left: 60px;
+}
+
+
+
+
+
+
+
+.banner {
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #215232;
+    background-image: url(images/pincodefbg.png); /* Use your background pattern image here */
+    background-repeat: repeat;
+    color: white;
+    height: 150px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    position: relative;
+  }
+
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #a8c3a5;
+    margin: 0px 10px 0px 30px;
+  }
+
+  .banner-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #footer2 {
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-right: auto;
+  }
